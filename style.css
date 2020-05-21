@@ -1,0 +1,385 @@
+/*nullstyle*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+/*START PROJECT*/
+
+body {
+  position: relative;  
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  color: #222222;
+  background-image: url("img/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: calc(50vw + 16px);
+  background-size: auto;
+  
+  
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+/*header style start */
+.page-header {
+  margin-bottom: 140px;
+  padding: 32px 0px;
+}
+
+.page-header a {
+  margin-right: 56px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #8da2ed;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.page-header a:focus,
+.page-header a:hover {
+  border-bottom: 1px solid #8da2ed;
+  filter: hue-rotate(50deg);
+}
+
+.page-header a:active {
+  filter: hue-rotate(0);
+  opacity: 0.6;
+}
+
+.header-email {
+  margin-left: 75px;
+  padding-left: 30px;
+  background-image: url("img/icon-email-header.svg");
+}
+
+.header-phone {
+  padding-left: 25px;
+  background-image: url("img/icon-phone-header.svg");
+}
+/*header style end*/
+
+/*hero style start */
+
+.hero-image {
+  position: relative;
+  height: 564px; 
+}
+
+.wrap {
+  margin-left: 75px;  
+  background-image: url("img/dotted-border-v.svg");
+  background-repeat: repeat-y;
+  background-position: top left;
+}
+
+.heading {
+  margin-bottom: 40px;
+  padding-left: 116px;
+  padding-right: 75px;  
+  font-size: 104px;
+  line-height: 120px;
+  letter-spacing: -2px;
+  font-weight: 400;
+  color: #8da2ed;
+}
+
+.hero-image p {
+  margin-bottom: 16px;
+  padding-left: 128px;
+  
+  font-size: 32px;
+  line-height: 48px;
+}
+/*hero style end*/
+
+/*intro style start */
+
+.intro {
+  
+  padding-top: 100px;
+  padding-bottom: 80px;
+  background-color: #f6feff;
+}
+
+.intro .container {
+  position: relative;
+}
+
+.intro .subheading {
+  position: absolute;
+  top: -220px;
+  left: 123px;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 300;
+  color: #222222;
+}
+
+.intro .subheading::before {
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: -32px;
+  width: 16px;
+  height: 28px;
+  background-image: url("img/icon-scroll.svg");
+  background-repeat: no-repeat;
+  
+}
+
+.intro_wrap {
+  display: flex;
+}
+
+.user-image { 
+  max-width: 600px;
+  width: 100%;  
+  padding: 0 75px;   
+  object-fit: cover;
+}
+
+.intro_content {
+  background-image: url("img/abilities.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro_title {
+  text-align: center;
+  color: #8da2ed;
+  margin-bottom: 25px;
+  padding-top: 25px;  
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;  
+}
+
+.intro_info{
+  padding: 0 50px;
+  font-weight: 700;  
+}
+
+.skills-list {
+  position: relative;  
+  margin: 0;
+  padding: 0;
+}
+
+.skill-html {
+  margin-left: 48px;
+  margin-bottom: 50px;
+  background-image: url("img/icon-html.svg");
+  padding-left: 82px;  
+  height: 72px;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.skill-css {
+  padding-left: 82px;  
+  height: 72px;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-left: 48px;
+  background-image: url("img/icon-css.svg");
+}
+
+.level {
+  position: absolute;
+  top: 32px;
+  margin: 4px 0 16px;
+  padding: 0;
+  height: 38px;
+  width: 600px;
+  font-size: 0;
+  background-color: #ffffff;
+  border: 3px solid #dee5fb;
+}
+
+.skill-html + .level {
+  left: 130px;
+}
+
+.skill-css + .level {
+  left: 130px;
+  top: 155px;
+}
+
+.skills .level div {
+  margin: 4px;
+  height: 24px;
+  min-height: unset;
+  background-color: #8da2ed;
+  background-image: url("img/progress-pattern.svg");
+}
+/*intro style end*/
+
+/*portfolio style start */
+
+.portfolio {
+  padding: 100px 0;
+  background-color: #fafbfd;
+}
+
+.portfolio_title {
+  margin-top: 0;
+  margin-bottom: 56px;
+  text-align: center;
+  font-size: 72px;
+  line-height: 104px;
+  font-weight: 400;
+  color: #8da2ed;
+}
+
+.portfolio_item {
+  padding: 0 75px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 50px;
+  margin-bottom: 50px;  
+}
+
+.portfolio_item:last-child {
+  margin-bottom: 0;
+}
+
+.portfolio_name {
+  text-align: center;
+  font-size: 48px;  
+  margin: 0;
+  padding-top: 80px;
+  opacity: 0.9;  
+}
+
+.portfolio_link-image {
+  width: 100%;
+
+}
+
+.portfolio_image:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+
+.portfolio_disc {
+  font-size: 22px;
+  margin: 0;
+  padding-top: 50px;
+}
+
+/*portfolio style end*/
+
+/*page-footer style start */
+
+.page-footer {
+  padding: 40px 0;
+  background-color: #8da2ed;
+}
+
+.page-footer a {
+  margin-right: 56px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+  opacity: 0.8;
+}
+
+.page-footer a:focus,
+.page-footer a:hover {
+  opacity: 1;
+  border-bottom: 1px solid #ffffff;
+}
+
+.page-footer a:active {
+  opacity: 0.6;
+}
+
+.footer-email {
+  margin-left: 75px;
+  padding-left: 30px;
+  background-image: url("img/icon-email-footer.svg");
+}
+
+.footer-phone {
+  padding-left: 25px;
+  background-image: url("img/icon-phone-footer.svg");
+}
+/*page-footer style end*/

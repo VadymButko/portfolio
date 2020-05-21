@@ -1,0 +1,271 @@
+@media screen and (max-width: 1366px) {
+    .level {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1280px) {       
+    .level {
+        width: 400px;
+    }
+
+    .user-image {
+        padding-left: 0;
+        padding-right: 30px;
+    }
+
+    .portfolio_name {
+        font-size: 40px;
+    }
+
+    .portfolio_disc {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-position-x: calc(40vw + 16px);        
+    }
+
+    .heading {
+        padding-left: 50px;
+        font-size: 76px;
+        line-height: 84px;
+    }   
+
+    .hero-image p{
+        padding-left: 62px;
+    }
+
+    .page-header a {
+        margin-right: 100px;
+    }
+
+    .intro_title{
+        margin-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .intro_info{
+        padding: 0 25px;
+    }
+
+    .user-image{
+        width: 300px;
+    }
+
+    .skill-html {
+        margin-left: 25px;
+        margin-bottom: 25px;        
+    }
+
+    .skill-css {
+        margin-left: 25px;
+    }
+
+    .skill-html + .level {
+        left: 105px;
+    }
+      
+    .skill-css + .level {
+        left: 105px;
+        top: 125px;        
+    }
+
+    .level {
+        width: 400px;
+    }
+
+    .portfolio_item {
+        padding: 0 30px;
+    }
+
+    .portfolio_name {
+        padding-top: 50px;
+    }
+
+    .portfolio_disc {
+        padding: 0;
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    body {
+        background-position-x: calc(30vw + 16px);        
+    }
+    
+    .header-email{
+        margin-left: 30px;
+    }
+
+    .wrap {
+        margin-left: 30px;
+    }
+
+    .user-image {
+        padding-right: 15px;
+    }
+
+    .intro_title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .intro .subheading {
+        left: 80px;
+    }
+
+    .skill-css {
+        margin-bottom: 25px;
+    }
+    
+    .level {
+        width: 300px;
+    }
+
+    .portfolio {
+        padding: 50px 0;
+    }
+
+    .portfolio_item {
+        column-gap: 30px;
+    }
+
+    .portfolio_name {
+        padding-top: 30px;
+        font-size: 30px;
+    }
+
+    .portfolio_disc {
+        font-size: 14px;
+    }
+
+    .footer-email {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        background-position-x: 0;        
+    }
+    
+    .intro_wrap {
+        display: block;
+    }
+
+    .page-header{
+        margin-bottom: 100px;
+    }
+
+    .page-header a {
+        display: block;
+        margin: 0;
+    }
+
+    .wrap {
+        margin: 0;
+    }
+
+    .hero-image {        
+        height: 530px;
+    }
+
+    .hero-image p {
+        font-size: 24px;
+    }
+
+    .intro {
+        padding: 15px 0;
+    }
+
+    .intro .subheading {
+        display: none;
+    }
+
+    .user-image {
+        padding: 0;
+        width: 100%;
+    }
+
+    .skill-html {
+        margin-left: 5px;
+    }
+
+    .skill-css {
+        margin-left: 5px;
+    }
+    
+    .skill-html + .level {
+        left: 80px;
+    }
+
+    .skill-css + .level {
+        left: 80px;        
+    }
+
+    .level {
+        width: 75%;
+    }
+
+    .portfolio {
+        padding: 25px 0;        
+    }
+
+    .portfolio_title {
+        font-size: 48px;
+        line-height: 56px;
+        margin-bottom: 20px;
+    }
+
+    .portfolio_item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+        margin-bottom: 0px;
+               
+    }
+
+    .portfolio_name {
+        padding: 15px 0;
+        font-size: 48px;
+        order: 1;
+        
+    }
+
+    .portfolio_disc {        
+        padding: 15px 0;
+        font-size: 22px;
+        order: 3;
+        text-align: justify;
+    }
+
+    .portfolio_image {        
+        order: 2;
+    }
+
+    .page-footer a{
+        display: block;
+        margin: 0;
+    }
+    
+}
+
+@media screen and (max-width: 420px) {
+    .heading {
+        padding-left: 25px;
+        padding-right: 0;
+    }
+
+    .hero-image p{
+        padding-left: 37px;
+    }
+
+    .level {
+        width: 70%;
+    }
+}
